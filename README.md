@@ -3,12 +3,13 @@
 
 ## Analysis tasks
 
- - Preprocessing script
+ - Preprocessing scripts
+  - Generating small tiles from large images
  - Direct image classification via pytorch
- - Image classification via fastAI library
-    - Direct classification on small samples
+ - Image classification via fastai library
+    - Direct classification on small tiles
     - Classification with Majority Voting
-    - Classification with KFold 
+    - Classification with 5-Fold Cross Validation (CV)
 
 ## Notes
 
@@ -18,5 +19,5 @@ Use of various ResNet models
 
 ### Deep learning libraries
 
-Use of pytorch and fastai library
+Use of pytorch and fastai libraries
 
