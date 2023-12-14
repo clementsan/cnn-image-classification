@@ -20,7 +20,7 @@ CSV_OutputFile = './Dataset_ImageClassification_Overlap-9blocks.csv'
 
 
 # Warning: full path needed
-Database_Dir = '/mnt/database_SEM/2018/'
+Database_Dir = '/path_database_SEM/2018/'
 DataDir = '~/Projects/Project_SEM/Image_Classification/data_Overlap-9blocks/'
 
 Nb_Samples = 20

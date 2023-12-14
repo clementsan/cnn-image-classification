@@ -20,7 +20,7 @@ CSV_OutputFile = './Dataset_ImageClassification.csv'
 
 
 # Warning: full path needed
-Database_Dir = '/mnt/database_SEM/2018/'
+Database_Dir = '/path_database_SEM/2018/'
 DataDir = '~/Projects/Project_SEM/Image_Classification/data/'
 
 Nb_Samples = 4
