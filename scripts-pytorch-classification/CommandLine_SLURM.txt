@@ -1,0 +1,16 @@
+#!/usr/bin/tcsh
+
+#SBATCH --time=10:00:00 # walltime, abbreviated by -t
+#SBATCH --nodes=1 # number of cluster nodes, abbreviated by -N
+#SBATCH -o slurm-%j.out-%N # name of the stdout, using the job number (%j) and the first node (%N)
+#SBATCH -e slurm-%j.err-%N # name of the stderr, using the job number (%j) and the first node (%N)
+
+python pytorch_resnet.py --model resnet18  >> pytorch_resnet18.log
+
+python pytorch_resnet.py --model resnet34  >> pytorch_resnet34.log
+
+python pytorch_resnet.py --model resnet50  >> pytorch_resnet50.log
+
+python pytorch_resnet.py --model resnet101  >> pytorch_resnet101.log
+
+python pytorch_resnet.py --model resnet152  >> pytorch_resnet152.log
