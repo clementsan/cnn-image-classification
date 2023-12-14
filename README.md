@@ -3,10 +3,13 @@
 
 ## Analysis tasks
 
-  - Preprocessing scripts
-    - Generating small tiles from large images
-  - Direct image classification via pytorch
-  - Image classification via fastai library
+### Preprocessing scripts
+  - Generating small tiles from large images
+
+### Image classification 
+  - Image classification via pytorch
+
+  - Image classification via fastai
     - Direct classification on small tiles
     - Classification with Majority Voting
     - Classification with 5-Fold Cross Validation (CV)
